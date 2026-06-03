@@ -29,3 +29,16 @@
 - **Push:** subir tus commits locales a la nube (GitHub).
 - **README:** archivo que explica de qué trata tu repo; la cara de tu proyecto.
 - **.gitignore:** lista de archivos que git debe ignorar (basura temporal que no quieres subir).
+
+
+
+## Día 2 — Funciones y bucles
+- **Función:** una "máquina" de código reutilizable: recibe datos, hace algo y devuelve un resultado. Se define una vez y se llama cuantas veces quieras.
+- **def:** la palabra con la que defines (creas) una función.
+- **Parámetro:** el dato de entrada que la función necesita (ej. `pesos`).
+- **Valor por defecto:** lo que un parámetro vale si no se lo das (ej. `precio_kg=29`).
+- **return:** lo que la función devuelve a quien la llamó.
+- **Bucle (for):** repite un bloque una vez por cada elemento de una lista.
+- **Lista de listas:** una lista cuyos elementos son, a su vez, listas (los pesos de varios días).
+
+
