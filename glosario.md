@@ -42,3 +42,10 @@
 - **Lista de listas:** una lista cuyos elementos son, a su vez, listas (los pesos de varios días).
 
 
+## Día 3 — Diccionarios
+- **Diccionario:** guarda datos con etiquetas (`clave: valor`), no por posición. Ej: `{"dia": "Lunes", "pesos": [...]}`.
+- **Clave / valor:** la etiqueta (clave) y el dato que guarda (valor). `jornada["pesos"]` busca por la clave "pesos".
+- **JSON:** el formato estándar (pares clave:valor) en que programas y modelos de IA intercambian datos estructurados. Un diccionario de Python es prácticamente JSON.
+
+
+
