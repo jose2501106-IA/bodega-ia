@@ -6,3 +6,5 @@
 - **¿Qué funcionó y qué me estorbó?**
 - **Foco de la Semana 2:** elegir el primer dolor real de Casa Muñoz y empezar a resolverlo.
 
+## Semana 2 - ""
+- ** Decidí probar en pequeño cómo varía el cambiar la temperatura de la creatividad para un LLM a través de la llamada a una API key
