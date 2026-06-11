@@ -48,4 +48,12 @@
 - **JSON:** el formato estándar (pares clave:valor) en que programas y modelos de IA intercambian datos estructurados. Un diccionario de Python es prácticamente JSON.
 
 
+## Semana 2 — Entorno y primera llamada a la API
+- **Entorno virtual (venv):** una "cajita" de Python aislada por proyecto. Lo que instalas ahí vive ahí, sin ensuciar el Python de toda la compu. Se prende con `source .venv/bin/activate` y hay que reactivarla en cada terminal nueva.
+- **pip:** el instalador de librerías de Python. `pip install anthropic` baja una librería y la deja lista para usarla en tu código.
+- **Librería (paquete / SDK):** código ya hecho por otros que importas para no reinventarlo (ej. `anthropic` para hablarle al modelo, `python-dotenv` para leer el `.env`).
+- **.env:** archivo donde guardas tus secretos (como tu API key) fuera del código. Va en `.gitignore` para que **nunca** suba a GitHub. La llave jamás vive en el código — menos en un repo público.
+- **f-string:** un texto con una `f` antes de las comillas que te deja meter variables dentro con llaves `{}`. Ej: `f"Van {total} kg"`.
+- **max_tokens:** el tope de qué tan larga puede ser la respuesta del modelo. Freno de seguridad y de costo.
+- **Temperatura:** perilla de aleatoriedad. Baja = respuestas consistentes; alta = más creativas y variadas. Ojo: ni en `0.0` hay garantía del 100% — reduce la improvisación, no la elimina. Por eso el corte necesita guardarraíles, no solo temperatura baja.
 
